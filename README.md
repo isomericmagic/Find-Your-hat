@@ -14,11 +14,11 @@ Your project is centered on a Field class. This and the following tasks will des
 
 The Field constructor should take a two-dimensional array representing the “field” itself. A field consists of a grid containing “holes” (O) and one “hat” (^). We use a neutral background character (░) to indicate the rest of the field itself. The player will begin in the upper-left of the field, and the player’s path is represented by *.
 Your class should take a single argument representing the field:
-const myField = new Field([
-  ['*', '░', '0'],
-  ['░', '0', '░'],
-  ['░', '^', '░']
-]);
+    const myField = new Field([
+      ['*', '░', '0'],
+      ['░', '0', '░'],
+      ['░', '^', '░']
+    ]);
 
 ## Step Two
 Give your Field class a .print() method that prints the current state of the field. You can choose to format this however you want, but it will be much easier to play the game if you print out a string representation of the board instead of the raw array.
