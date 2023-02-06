@@ -27,7 +27,7 @@ Give your Field class a .print() method that prints the current state of the fie
 
 ## Step Three
 Your game should be playable by users. In order to facilitate this, build out the following behavior:
-* When a user runs main.js, they should be prompted for input and be able to indicate which direction they’d like to “move”.
+* When a user runs main.js, they should be prompted for input and be able to indicate which direction they’d like to "move" (U for up, D for down, L for left, R for right).
 * After entering an instruction, the user should see a printed result of their current field map with the tiles they have visited marked with *. They should be prompted for their next move.
 This should continue until the user either:
 1. Wins by finding their hat.
