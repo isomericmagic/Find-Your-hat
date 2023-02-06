@@ -7,7 +7,7 @@ This project is slightly different than others you have encountered thus far on 
 In this project, you’ll be building an interactive terminal game. The scenario is that the player has lost their hat in a field full of holes, and they must navigate back to it without falling down one of the holes or stepping outside of the field.
 
 ## Setup Instructions
-If you choose to do this project on your computer instead of Codecademy, you can download what you'll need (here)[https://content.codecademy.com/PRO/independent-practice-projects/find-your-hat/find-your-hat-starting.zip?_gl=1*1r23wp4*_ga*MDY0ODE0MTA3OS4xNjcyODQ4MDA2*_ga_3LRZM6TM9L*MTY3NTE3OTk3Ni4yNC4wLjE2NzUxNzk5NzYuNjAuMC4w].
+If you choose to do this project on your computer instead of Codecademy, you can download what you'll need [here](https://content.codecademy.com/PRO/independent-practice-projects/find-your-hat/find-your-hat-starting.zip).
 
 ## Step One
 Your project is centered on a Field class. This and the following tasks will describe how the class should function at a high level, and it will be up to you to figure out the implementation in code. As you go, test your code by creating instances of the class and calling its methods.
