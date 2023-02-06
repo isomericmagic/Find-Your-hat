@@ -102,7 +102,6 @@ function moveDown() {
     //move down and print again
     currentLocation[0] += 1;
     myField.field[currentLocation[0]][currentLocation[1]] = '*';
-    //myField.field[currentLocation[0]-1][currentLocation[1]] = '░';
     console.clear();
     console.log(' ');
     myField.print();
@@ -120,7 +119,6 @@ function moveLeft() {
     //move left and print again
     currentLocation[1] -= 1;
     myField.field[currentLocation[0]][currentLocation[1]] = '*';
-    //myField.field[currentLocation[0]][currentLocation[1]+1] = '░';
     console.clear();
     console.log(' ');
     myField.print();
